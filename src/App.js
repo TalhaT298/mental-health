@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Games from './components/Games';
 import Activities from './components/Activities';
 import Counselling from './components/Counselling';
+// import Terms from './components/Terms';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      <Games />
      <Activities/>
      <Counselling/>
+     {/* <Terms/> */}
     </div>
   );
 }
